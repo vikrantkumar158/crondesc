@@ -42,7 +42,7 @@ command       /usr/bin/find
 ## Limitations
 
 * Special time strings such as "@yearly" are not handled.
-* Validation for the given input is constrained to check whether the cron string has exactly six fields. Advanced validation of syntax and values in each field is not included in this application.
+* Validation for the given input is constrained to check whether the cron string has exactly six fields and whether the values are in correct ranges. Advanced validation of syntax is not included in this application.
 
 ## Setup Instructions
 To use this application, make sure you have Go installed on your machine.
@@ -52,4 +52,4 @@ To use this application, make sure you have Go installed on your machine.
 
 ## Acknowledgement
 
-The cron-parser is a basic command line application to demonstrate Go's features and functionality.
+The crondesc is a basic command line application.
